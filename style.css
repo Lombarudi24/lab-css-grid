@@ -1,5 +1,30 @@
 /* Write your CSS here! */
 
+
+.primary-content{
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+}
+.header{
+  display: grid;
+grid-template-rows: 5px;
+ text-align:center;
+}
+.logo{ 
+  text-align: left;
+}
+.main{
+  display: grid;
+  grid-column-start: 15;
+  grid-column-end: 3;
+}
+.sidebar{
+  display: grid;
+grid-column-end: span 2;
+
+}
+
+
 /* Do not change the CSS below. */
 
 .header {
